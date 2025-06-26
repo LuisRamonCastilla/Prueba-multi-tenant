@@ -1,0 +1,5 @@
+<header *ngIf="tenantService.tenant">
+  <img [src]="tenantService.tenant.logoUrl" alt="logo" width="80" />
+  <span>{{ tenantService.tenant.name }}</span>
+</header>
+<router-outlet></router-outlet>

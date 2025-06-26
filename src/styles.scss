@@ -1,0 +1,6 @@
+@import 'theme/theme-andalucia';
+@import 'theme/theme-tarragona';
+
+body {
+  background-color: var(--primary-color, #fff);
+}
